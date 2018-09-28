@@ -257,15 +257,13 @@ class PassaroAmareloTests(PassaroBaseTests):
     def teste_velocidade_escalar(self):
         self.assertEqual(30, PassaroAmarelo.velocidade_escalar)
 
-    def teste_lacamento_vertical(self):
+    def teste_lancamento_vertical(self):
         """
         Tests de lançamento vertical. Nele, o passaro só se move verticalmente e sua posição y se matém contanstante
         :return:
         """
         passaro_amarelo = PassaroAmarelo(1, 1)
         passaro_amarelo.lancar(90, 2)  # passaro lancado a 90 graus no tempo 2 segundos
-
-
 
         # subindo
 
