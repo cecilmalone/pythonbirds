@@ -192,7 +192,7 @@ class PassaroBaseTests(TestCase):
 
 class PassaroVermelhoTests(PassaroBaseTests):
     """
-    Classe de teste e Passaro Vermelho
+    Classe de teste de Passaro Vermelho
     """
 
     def teste_status(self):
